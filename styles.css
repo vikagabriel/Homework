@@ -5,46 +5,54 @@ body {
 }
 
 .white_background {
-    height: 100vh;
+    display: flex;
+    flex: 'flex-grow' 'flex-shrink';
+    height: 100%;
+    width: 100%;
     margin: 5px;
 }
 
 
 .green {
+    height: 100%;
+    width: 100%;
     display: flex;
     flex-direction:column;
     padding: 5px;
-    border: ridge rgba(25,212,18,255);
+    margin: 5px;
+    border: ridge rgba(43,215,30,255);
     border-width: 6px;
+    box-shadow: inset   5px 5px 5px -3px #727272, 
+                        5px 5px 5px -3px #727272; 
     background-color: rgba(255, 255, 255, 0);
-    height: 100%;
     margin: 5px;
 }
 
 .red {
     display: flex;
     padding: 5px;
-    margin: 5px;
-    border: ridge rgba(204,33,31,255);
+    margin: 15px;
+    border: ridge rgba(244,78,69,255);
     border-width: 6px;
-       
+    box-shadow: inset   5px 5px 5px -3px #727272, 
+                        5px 5px 5px -3px #727272;      
     background-color: rgba(255, 255, 255, 0);
 }
 
 .first {
-    height: 20%;
+    height: 18%;
 }
 
 .second {
-    height: 10%;
+    height: 9%;
 }
 
 .third {
-    height: 50%;
+    height: 55%;
 }
 
 .fourth {
-    height: 20%;
+    height: 18%;
 }
 
 .blue {
@@ -52,10 +60,54 @@ body {
     flex: 0 1 33.333%;
     flex-direction:column;
     padding: 5px;
-    margin: 5px;
-    border: ridge rgba(35,129,202,255);
+    margin: 15px;
+    border: ridge rgba(22,144,222,255);
     border-width: 6px;
+    box-shadow: inset   5px 5px 5px -3px #727272, 
+                        5px 5px 5px -3px #727272;
     flex-grow:1
+}
+
+.blue.left {
+    margin-right: 2px;
+    flex: 0 1 20%;
+}
+
+.center {
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+.blue.right {
+    margin-left: 2px;
+    flex: 0 1 20%;
+}
+
+.first_middle {
+    margin-left: 2px;
+    margin-right: 0px;
+    flex: 0 1 25%;
+}
+
+.second_middle {
+    margin-left: 0px;
+    margin-right: 2px;
+    flex: 0 1 25%;
+}
+
+.blue.small {
+    flex: 0 1 20%;
+    margin-right: 2px;
+}
+
+.blue.big {
+    flex: 0 1 80%;
+    margin-left: 2px;
+}
+
+.yellow {
+    box-shadow: inset   5px 5px 5px -3px #727272, 
+                        5px 5px 5px -3px #727272;
 }
 
 .yellow.small {
@@ -67,33 +119,30 @@ body {
     border: ridge rgba(253,233,73,255);
     border-width: 6px;    
 }
-.big {
+
+.yellow.small.top {
+    margin-bottom: 2px;
+}
+
+.yellow.small.bottom {
+    margin-top: 2px;
+}
+
+.yellow.big {
     display: flex;
-    flex: 0 1 70%;
+    flex: 0 1 85%;
     flex-direction:column;
     padding: 5px;
     margin: 5px;
     border: ridge rgba(253,233,73,255);
     border-width: 6px;   
 }
-.middle {
+.yellow.middle {
     display: flex;
-    flex: 0 1 30%;
+    flex: 0 1 15%;
     flex-direction:column;
     padding: 5px;
     margin: 5px;
     border: ridge rgba(253,233,73,255);
     border-width: 6px;
 }
-
-/*div.red {
-    display: flex;
-    flex: 1 1 auto;
-    flex-direction:column;
-    padding: 5px;
-    margin: 5px;
-    border: ridge rgba(35,129,202,255);
-    border-width: 6px;
-       
-    background-color: rgba(255, 255, 255, 0);
-}*/
