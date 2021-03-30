@@ -70,7 +70,7 @@ body {
 
 .blue.left {
     margin-right: 2px;
-    flex: 0 1 20%;
+    flex: 0 1 24%;
 }
 
 .center {
@@ -80,28 +80,28 @@ body {
 
 .blue.right {
     margin-left: 2px;
-    flex: 0 1 20%;
+    flex: 0 1 24%;
 }
 
 .first_middle {
     margin-left: 2px;
     margin-right: 0px;
-    flex: 0 1 25%;
+    flex: 0 1 26%;
 }
 
 .second_middle {
     margin-left: 0px;
     margin-right: 2px;
-    flex: 0 1 25%;
+    flex: 0 1 26%;
 }
 
 .blue.small {
-    flex: 0 1 20%;
+    flex: 0 1 24%;
     margin-right: 2px;
 }
 
 .blue.big {
-    flex: 0 1 80%;
+    flex: 0 1 76%;
     margin-left: 2px;
 }
 
